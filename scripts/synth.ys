@@ -1,0 +1,9 @@
+read_verilog -sv rtl/aim_tensor.sv
+hierarchy -check -top aim_tensor
+proc
+opt
+memory
+opt
+techmap
+opt
+stat

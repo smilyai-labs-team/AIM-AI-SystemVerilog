@@ -1,0 +1,6 @@
+{
+  "AIM_TINY": {"packages":1,"dies_per_package":1,"superclusters_per_die":1,"clusters_per_supercluster":1,"engines_per_cluster":1,"array_m":2,"array_n":2,"clock_ghz":0.05,"hbm_stacks_per_package":0,"hbm_gb_per_stack":0,"scratchpad_kib_per_cluster":4,"l2_mib_per_die":0},
+  "AIM_FPGA": {"packages":1,"dies_per_package":1,"superclusters_per_die":1,"clusters_per_supercluster":1,"engines_per_cluster":1,"array_m":4,"array_n":4,"clock_ghz":0.1,"hbm_stacks_per_package":0,"hbm_gb_per_stack":0,"scratchpad_kib_per_cluster":128,"l2_mib_per_die":0},
+  "AIM_MULTI_FPGA": {"packages":1,"dies_per_package":2,"superclusters_per_die":1,"clusters_per_supercluster":2,"engines_per_cluster":2,"array_m":8,"array_n":8,"clock_ghz":0.1,"hbm_stacks_per_package":0,"hbm_gb_per_stack":0,"scratchpad_kib_per_cluster":256,"l2_mib_per_die":1},
+  "AIM_FULL": {"packages":4,"dies_per_package":4,"superclusters_per_die":2,"clusters_per_supercluster":4,"engines_per_cluster":4,"array_m":64,"array_n":64,"clock_ghz":2.4,"hbm_stacks_per_package":4,"hbm_gb_per_stack":36,"scratchpad_kib_per_cluster":256,"l2_mib_per_die":2}
+}
